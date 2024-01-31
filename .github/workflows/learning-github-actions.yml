@@ -1,6 +1,12 @@
 name: "first-github-actions"
 run-name: ${{ github.actor }} is learning github actions
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   print-hello-github:
