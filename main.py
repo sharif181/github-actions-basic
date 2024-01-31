@@ -1,1 +1,1 @@
-print("hello github actions 2")
+print("branch deleted")
